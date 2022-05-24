@@ -1,0 +1,42 @@
+{
+  "name": "btrack-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "mobdev" : "nodemon index.js --host 0.0.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nouman-atac/btrack-server.git"
+  },
+  "author": "Nouman_Saab_Musharaf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nouman-atac/btrack-server/issues"
+  },
+  "homepage": "https://github.com/nouman-atac/btrack-server#readme",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.2",
+    "connect-redis": "^6.1.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "express-busboy": "^8.0.0",
+    "express-router": "0.0.1",
+    "express-session": "^1.17.2",
+    "express-validator": "^6.14.0",
+    "moment": "^2.29.1",
+    "mongodb": "^4.3.1",
+    "multer": "^1.4.4",
+    "nodemailer": "^6.7.2",
+    "nodemon": "^2.0.15",
+    "redis": "^4.0.6",
+    "redis-server": "^1.2.2",
+    "uuid": "^8.3.2"
+  }
+}
